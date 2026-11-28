@@ -65,6 +65,9 @@
                 "${linuxPkgs.jujutsu}/bin/jj --ignore-working-copy status 2>/dev/null 1>/dev/null; exec ${pi}/bin/pi \"$@\""
                 "pi"
               ];
+              Env = [
+                "PI_SKIP_VERSION_CHECK=1"
+              ];
               WorkingDir = "/workspace";
             };
           };
