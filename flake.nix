@@ -44,6 +44,7 @@
               httpie
               jujutsu
               ripgrep
+              which
               dockerTools.binSh
               dockerTools.usrBinEnv
               dockerTools.caCertificates
